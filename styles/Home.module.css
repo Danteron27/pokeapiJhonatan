@@ -1,0 +1,41 @@
+.columnas{
+  list-style: none;
+  padding: 0;
+  display:grid;
+  gap: 15px; 
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+}
+.card{
+  padding: 5px;
+  position: relative;
+  border-radius: 17px ;
+  height: 145px;
+  width: 175px;
+  color: #fff;
+}
+.Image{
+  position:absolute;
+  right: -18px; 
+  top: 0;  
+
+}
+.nombreTipos h3 {
+  font-size: 1.2rem;  
+  margin: 0;
+  text-transform: capitalize;
+}
+.tipos {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  
+}
+.tipo{
+  margin: 0 0 3px 0;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  padding: 3px 10px;
+  line-height: 16px;
+  align-self: flex-start;
+  text-transform: capitalize;
+}

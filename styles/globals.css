@@ -1,0 +1,32 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bug {
+  background: rgb(87, 197, 111);
+}
+.normal{
+  background: rgb(207, 195, 195);
+}
+.grass{
+  background: rgb(35, 248, 142);
+}
+.fire{
+  background: rgb(248, 110, 31);
+}
+.water{
+  background: rgb(32, 139, 226);
+}
